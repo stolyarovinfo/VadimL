@@ -13,7 +13,7 @@ public class Client {
     @Column(nullable = false)
     private Long externalId;
 
-    @Column(nullable = false,length = 255)
+    @Column(nullable = false)
     private String fullName;
 
     @Column(nullable = false,length = 25)
